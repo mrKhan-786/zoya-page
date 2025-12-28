@@ -353,3 +353,56 @@ body {
   }
 }
 
+
+
+/* ===== MOBILE VIEW FIX ===== */
+@media (max-width: 600px) {
+
+  body {
+    padding: 20px;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    padding: 35px 25px;
+    border-radius: 22px;
+  }
+
+  .name {
+    font-size: 48px;   /* was too small visually */
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .primary-btn {
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 35px;
+  }
+
+  .option-btn {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .secondary-btn {
+    padding: 12px 32px;
+    font-size: 15px;
+  }
+
+  .answer-text {
+    font-size: 18px;
+  }
+
+  .from {
+    font-size: 15px;
+  }
+}
+
