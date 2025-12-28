@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zoya💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+<div class="decor-top">✿ ✿ ✿</div>
+
+  <!-- START SCREEN -->
+  <div class="screen active" id="start">
+    <h1 class="name">Hey Zoya🌸</h1>
+    <p class="subtitle">
+        CA shaiba😁💖<br>
+      This is for you🌸
+    </p>
+    <button class="primary-btn" onclick="goToQuestions()">Start ✨</button>
+  </div>
+
+  <!-- QUESTIONS SCREEN -->
+<div class="screen" id="questions">
+  <h2 class="heading">Choose one 💖</h2>
+
+  <button class="option-btn" onclick="showAnswer('self')">
+    Do you want to know about yourself?
+  </button>
+
+  <button class="option-btn" onclick="showAnswer('future')">
+    Do you want to know about your future?
+  </button>
+
+  <button class="option-btn" onclick="showAnswer('like')">
+    Do you want to know what makes you different from others?
+  </button>
+
+  <button class="option-btn" onclick="showAnswer('special')">
+   Do you want to know a little secret about you?💫
+  </button>
+
+  <!-- NEW BACK BUTTON -->
+  <button class="secondary-btn back-btn" onclick="backToStart()">
+    ← Back
+  </button>
+</div>
+
+
+  <!-- ANSWER SCREEN -->
+  <div class="screen" id="answer">
+    <p id="answerText" class="answer-text"></p>
+    <button class="secondary-btn" onclick="backToQuestions()">Back 💗</button>
+  </div>
+
+  <div class="decor-bottom">✿ ✿ ✿</div>
+
+  <p class="from">— Arman</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
